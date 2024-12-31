@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <p>Faça login com sua conta social ou insira suas informações abaixo.</p>
+        <div class="social-buttons">
+            <button class="social facebook">f</button>
+            <button class="social apple"></button>
+            <button class="social google">G</button>
+        </div>
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="text" id="email" name="email" placeholder="Seu email ou usuário" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Sua senha" required>
+                <span class="eye">👁️</span>
+            </div>
+            <a href="#" class="forgot-password">Esqueci minha senha</a>
+            <button type="submit" class="login-button">Entrar</button>
+        </form>
+        <div class="signup-link">
+            Não tem uma conta? <a href="#">Criar aqui</a>
+        </div>
+        <div class="footer">
+            Suporte — Termos de Uso — Política de Privacidade
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
