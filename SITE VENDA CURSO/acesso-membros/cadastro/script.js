@@ -8,3 +8,6 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
   
   // Implemente a lógica de cadastro aqui ou redirecione para outra página.
 });
+
+
+//alteração
